@@ -1,0 +1,25 @@
+{
+  "name": "requestbot",
+  "version": "1.0.0",
+  "description": "a slackbot for requesting items",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnySimple/requestbot.git"
+  },
+  "author": "Johnson Obeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnnySimple/requestbot/issues"
+  },
+  "homepage": "https://github.com/JohnnySimple/requestbot#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7",
+    "slackbots": "^1.2.0"
+  }
+}
